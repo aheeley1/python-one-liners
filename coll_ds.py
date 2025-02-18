@@ -24,3 +24,13 @@ even_digits = [n for n in range(1,10) if n%2 == 0]
 print(even_digits)
 
 #__eq__()
+
+#conditional execution of different code branches
+n = int(input("Enter a number: "))
+
+if n > 10:
+    print("Greater than 10")
+elif n == 10:
+    print("Equal to 10")
+else:
+    print("Less than 10")
