@@ -34,3 +34,18 @@ elif n == 10:
     print("Equal to 10")
 else:
     print("Less than 10")
+
+#loops: for repeated execution of code blocks 
+#Python uses while and for loops
+#loop variant
+#for loop declaration
+#loop variable i that iteratively takes on all values in the list
+#keeps running untl it runs out of values
+#for i in [0,1,2]:
+    #print(i)
+#while loop - same semantics
+# executes while loop condition is met
+#j = 0
+#while (j < 3):
+    #print(j)
+    #j = j + 1
