@@ -49,3 +49,24 @@ else:
 #while (j < 3):
     #print(j)
     #j = j + 1
+
+#loop condition for an infinite loop: ex) server awaiting and serving requests
+# break or a condition that evaluates to False used for terminating loops
+#a web server may csall break if it detects it is under attack, will then execute code immediately after
+while True:
+    break
+
+#continue ends/skips current loop iteration and brings execution flow back to loop condition
+#while True:
+    #continue
+    #print("Dead Code")
+
+#functions for code reuse
+#arguments can change the results of the function
+#return keyword terminates the function and passes flow of execution
+# to the caller of the function
+# float return type: original investment + nominal interest
+def appreciate(x, percentage):
+    return x + x * percentage / 100
+
+print(appreciate(10000,5))
