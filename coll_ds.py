@@ -9,6 +9,21 @@ def f():
 print(f() is None)
 print("" == None) #use is instead?
 
+#list container data type:
+#a mutable, ordered collection of values/elements
+lst = [0,1,2,4,5,6,7,8]
+lst.insert(3,3) # insert(index,value)
+l = [1,2,4]
+l.insert(2,3)
+l.append(5)
+#append operation is fastest, does not need to trasverse the list
+
+#stack: LIFO or FILO data structure
+stack = [3]
+stack.append(42)
+stack.pop()
+stack.pop()
+
 
 #list comprehensions to quickly build and modify lists
 
@@ -20,8 +35,10 @@ customers = [("John", 240000), ("Alice", 120000),
 whales = [x for x,y in customers if y > 1000000]
 print(whales)
 
-even_digits = [n for n in range(1,10) if n%2 == 0]
+even_digits = [n for n in range(10) if n%2 == 0]
 print(even_digits)
+odd_digits = [n for n in range(10) if n%2 == 1]
+print(odd_digits)
 
 #__eq__()
 
