@@ -46,3 +46,9 @@ print(lst1)
 #thus 3x3=9 combinations of context variables
 lot = [(x,y) for x in range(3) for y in range(3)]
 print(lot)
+
+#expression: square function of the context variable x
+#context: context variable x iterates over all values returned by range function
+#but only if they are off values
+odd_squares = [x**2 for x in range(10) if x % 2 > 0]
+print(odd_squares)
