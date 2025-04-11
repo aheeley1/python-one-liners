@@ -52,3 +52,8 @@ print(lot)
 #but only if they are off values
 odd_squares = [x**2 for x in range(10) if x % 2 > 0]
 print(odd_squares)
+
+#expression: string lowercase function on context variable x
+#context: context variable x iterates over the string values in the list
+lcl = [x.lower() for x in ['I', 'AM', 'NOT', 'SHOUTING'] ]
+print(lcl)
